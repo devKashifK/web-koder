@@ -7,13 +7,7 @@ import ScrollDown from './ScrollDown';
 export default function Home() {
   return (
     <section className={`${styles.home} container`}  id="home">
-        <div className="blur" style={{
-        background : "var(--blur)",
-        top : "1rem",
-        width: "21rem",
-        height: "11rem",
-        left: "0"
-      }}></div>
+     
       <div className={styles.intro}>
         <img src={Me} alt="" className={styles.homeImg} />
         <h1 className={styles.homeName}>Kashif Khan</h1>
@@ -30,6 +24,20 @@ export default function Home() {
         top : "17rem",
         width: "21rem",
         height: "11rem"
+      }}></div>
+         <div className="blur" style={{
+        background : "var(--blur)",
+        top : "1rem",
+        width: "21rem",
+        height: "11rem",
+        left: "0"
+      }}></div>
+       <div className="blur" style={{
+        background : "var(--blur3)",
+        top : "80%",
+        width: "21rem",
+        height: "11rem",
+        left: "10rem"
       }}></div>
     </section>
   )
