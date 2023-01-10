@@ -116,6 +116,7 @@ img{
 .section{
   padding-top: 7rem;
   padding-bottom: 2rem;
+  position: relative;
 }
 
 .sectionTitle{
@@ -124,6 +125,7 @@ img{
   font-weight: var(--font-bold);
   position: relative;
   margin-bottom: 3.75rem;
+  z-index: 21;
 }
 
 .sectionTitle::before{

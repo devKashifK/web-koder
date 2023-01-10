@@ -19,7 +19,7 @@ export default function Home() {
 
         <ScrollDown/>
       </div>
-      <div className="blur" style={{
+      {/* <div className="blur" style={{
         background : "var(--blur2)",
         top : "17rem",
         width: "50rem",
@@ -40,7 +40,7 @@ export default function Home() {
         height: "11rem",
         left: "-15rem",
         zIndex : "10"
-      }}></div>
+      }}></div> */}
     </section>
   )
 }

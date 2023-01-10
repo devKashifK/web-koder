@@ -65,8 +65,8 @@ export default function Sidebar() {
     </div>
 
     </aside>
-    <div className={`${styles.navToggle} ${toggle ? styles.navToggleOpen : ""}`}>
-      <i className='icon-menu' onClick={() => showMenu(!toggle)}></i>
+    <div className={`${styles.navToggle} ${toggle ? styles.navToggleOpen : ""}`} onClick={() => showMenu(!toggle)}>
+      <i className='icon-menu' ></i>
     </div>
     </>
   )
