@@ -12,6 +12,8 @@
 --text-color:hsl(244, 16%, 43%);
  --body-color:  hsl(258, 60%, 98%);
 --container-color:#fff;
+--blur : rgb(203 162 229 / 85%);
+--blur2 : #C1F5FF;
 
 /* ==========Font and Typography========= */
 /*.5rem = 8px | 1rem = 16px /..*/
@@ -143,6 +145,17 @@ img{
   font-weight: var(--font-bold);
   color: #fff;
   cursor: pointer;
+}
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background-color: #edd0ff;
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
 }
 
 @keyframes button-push {
