@@ -1,0 +1,77 @@
+.contact{
+    padding-bottom: 6.25rem;
+    margin-top: 2.25rem;
+}
+
+.contactContainer{
+grid-template-columns: 4fr 8fr;
+column-gap: 1.875rem;
+}
+
+.contactTitle{
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.5rem;
+}
+.contactFormGroup{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+}
+
+.contactFormDiv{
+    position: relative;
+    margin-bottom: 1.875rem;
+    height: 3.75rem;
+}
+
+.contactFormInput{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--container-color);
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    border-radius: 1.875rem;
+    padding: 0.625rem 1.875rem;
+    z-index: 1;
+}
+.contactFormArea{
+    height: 10.25rem;
+}
+.contactFormArea{
+    resize: none;
+}
+
+
+@media screen and (max-width: 1024px){
+   
+  .contactContainer{
+    grid-template-columns: 300px 360px;
+    justify-content: center;
+  }
+  .contactFormGroup{
+    grid-template-columns: 1fr;
+  }
+   
+  }
+ 
+  @media screen and (max-width: 768px){
+    .contactContainer{
+    grid-template-columns:  310px;
+    row-gap: 1.875rem;
+  }
+   
+  .contactInfo{
+    text-align: center;
+  }
+  }
+   
+  @media screen and (max-width: 350px){
+    .contactContainer{
+    grid-template-columns:  1fr;
+  }
+   
+  }

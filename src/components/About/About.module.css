@@ -1,0 +1,151 @@
+.aboutContainer{
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+}
+
+.aboutData{
+padding: 1.875rem;
+background-color: var(--container-color);
+box-shadow: var(--shadow);
+border-radius: var(--border-radius);
+grid-template-columns: repeat(2, 1fr);
+column-gap: 1.875rem;
+align-items: flex-start;
+position: relative;
+}
+
+.aboutData::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid var(--container-color);
+    position: absolute;
+    left: -0.93rem;
+    top: 20%;
+}
+.aboutDescription{
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.aboutSkills{
+    row-gap: 1.25rem;
+}
+
+.skillsTitles{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.skillsName{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skillsNumber{
+    line-height: 1.2;
+}
+
+.skillsBar,
+.skillsPercentage
+{
+height: 7px;
+border-radius: 0.25rem;
+}
+.skillsBar{
+    background-color: #f1f1f1;
+}
+.skillsPercentage{
+    display: block;
+    background-color: var(--first-color);
+}
+
+.development{
+    width: 90%;
+    background-color: rgb(255,209,92);
+}
+.uiDesign{
+    width: 90%;
+    background-color: rgb(255,76,96);
+}
+.photography{
+    width: 90%;
+    background-color: rgb(108,108,299);
+}
+
+.aboutBoxes{
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.875rem;
+    margin-top: 4.35rem;
+}
+
+.aboutBox{ 
+    display: flex;
+    column-gap: 1.5rem;
+}
+.aboutIcon{
+    font-size: var(--h1-font-size);
+    color: #dedeea;
+}
+
+.aboutTitle{
+    font-size: 1.875rem;
+}
+
+@media screen and (max-width: 1024px){
+    .aboutContainer{
+     grid-template-columns: 720px;
+     justify-content: center;
+     row-gap: 1.875rem;
+    }
+   .aboutData::before{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    left: 49%;
+    top: -20px;
+   }
+   .aboutImg{
+    justify-self: center;
+   }
+   .aboutBox{
+    flex-direction: column;
+    row-gap: .5rem;
+    text-align: center;
+   }
+  }
+  @media screen and (max-width: 768px){
+    .aboutContainer{
+        grid-template-columns: 350px;
+       }
+       .aboutData{
+        grid-template-columns: 1fr;
+        row-gap: 1.875rem;
+       }
+      .aboutData::before{
+       left: 47%;
+      }
+      .aboutBoxes{
+       grid-template-columns: repeat(2, 150px);
+       row-gap: 1.5rem;
+       justify-content: center;
+      }
+  }
+
+  @media screen and (max-width: 576px){
+    .aboutContainer{
+        grid-template-columns: 320px;
+    }
+  }
+
+  @media screen and (max-width: 650px){
+    .aboutContainer{
+        grid-template-columns: 1fr;
+    }
+    .aboutBoxes{
+        grid-template-columns: 1fr;
+    }
+  }
