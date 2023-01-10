@@ -12,9 +12,9 @@
 --text-color:hsl(244, 16%, 43%);
  --body-color:  hsl(258, 60%, 98%);
 --container-color:#fff;
---blur : rgb(203 162 229 / 75%);
+--blur : rgb(203 162 229 / 60%);
 --blur2 : #C1F5FF;
---blur3 : #ffff00d1;
+--blur3 : #ffff0080;
 
 /* ==========Font and Typography========= */
 /*.5rem = 8px | 1rem = 16px /..*/

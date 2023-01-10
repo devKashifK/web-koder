@@ -22,22 +22,24 @@ export default function Home() {
       <div className="blur" style={{
         background : "var(--blur2)",
         top : "17rem",
-        width: "21rem",
+        width: "50rem",
         height: "11rem"
       }}></div>
          <div className="blur" style={{
         background : "var(--blur)",
         top : "1rem",
-        width: "21rem",
+        width: "40rem",
         height: "11rem",
-        left: "0"
+        left: "-05rem",
+        zIndex : "10"
       }}></div>
        <div className="blur" style={{
         background : "var(--blur3)",
         top : "80%",
-        width: "21rem",
+        width: "50rem",
         height: "11rem",
-        left: "10rem"
+        left: "-15rem",
+        zIndex : "10"
       }}></div>
     </section>
   )

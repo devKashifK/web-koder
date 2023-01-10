@@ -10,6 +10,13 @@ export default function Sidebar() {
   return (
     <>
     <aside className={`${styles.aside} ${toggle ? styles.showMenu : ""}`}>
+    {/* <div className="blur" style={{
+        background : "var(--blur2)",
+        top : "80%",
+        width: "50rem",
+        height: "11rem",
+        left: "0rem"
+      }}></div> */}
       <img src={Logo} alt="" />
   
     <nav className={styles.nav}> 

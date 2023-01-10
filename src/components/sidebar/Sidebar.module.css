@@ -49,7 +49,7 @@
     display: none;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 21;
     border-radius: 4px;
     transition: .3s;
 }
