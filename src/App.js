@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, } from "react";
+import { useSelector } from "react-redux";
 import "./App.css";
 import About from "./components/About/About";
 import Blog from "./components/Blog/Blog";
@@ -12,17 +13,18 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./Pages/Home/Home";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const darkMode = useSelector((state) => state.dark.darkMode)
+ 
 
-  const handleClick = () => {
-    setDarkMode(!darkMode);
-  };
+
   useEffect(() => {
     if (darkMode) {
       document.documentElement.style.setProperty("--body-color", "#000000ec");
       document.documentElement.style.setProperty("--title-color", "white");
       document.documentElement.style.setProperty("--text-color", "white");
       document.documentElement.style.setProperty("--container-color", "black");
+      document.documentElement.style.setProperty("--shadow", "#ffff0064  0px 0px 4px");
+      
     } else {
       document.documentElement.style.setProperty(
         "--body-color",
@@ -37,14 +39,14 @@ function App() {
         "hsl(244, 16%, 43%)"
       );
       document.documentElement.style.setProperty("--container-color", "#fff");
+      document.documentElement.style.setProperty("--shadow", "0px 5px 20px 0px rgb(69 67 96 / 10%)");
     }
-    console.log("red");
   }, [darkMode]);
 
   return (
     <>
       <Sidebar />
-      <DarkMode handleClick={handleClick} />
+      <DarkMode  />
       <main className="main">
         <Home />
         <About />

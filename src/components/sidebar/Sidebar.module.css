@@ -58,14 +58,18 @@
 @media screen and (max-width: 1024px){
     .aside{
       left: -110px;
+      z-index: 25;
     }
    .navToggle{
     display: flex;
+    z-index: 25;
    }
 .navToggleOpen{
     left: 140px;
+    z-index: 25;
 }
 .showMenu{
     left: 0;
+    z-index: 25;
 }
   }
