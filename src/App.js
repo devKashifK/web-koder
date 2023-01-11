@@ -1,7 +1,6 @@
 import './App.css';
 import About from './components/About/About';
 import Blog from './components/Blog/Blog';
-import Blur from './components/Blur/Blur';
 import Contact from './components/Contact/Contact';
 import Protfolio from './components/Protfolio/Protfolio';
 import Resume from './components/Resume/Resume';
@@ -15,7 +14,6 @@ function App() {
     <>
     <Sidebar />
     <main className='main'>
-      <Blur/>
       <Home />
       <About />
       <Services />

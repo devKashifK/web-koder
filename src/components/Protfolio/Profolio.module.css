@@ -4,11 +4,13 @@
     column-gap: 1.875rem;
     flex-wrap: wrap;
     margin-bottom: 2.5rem;
+    z-index: 21;
  }
 
  .workItem{
     cursor: pointer;
     font-weight: var(--font-bold);
+    z-index: 21;
  }
 
  .workItem:hover{
@@ -25,6 +27,7 @@
     overflow: hidden;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
+    z-index: 21;
  }
  .workMask{
     background-color: #6c6ce5;

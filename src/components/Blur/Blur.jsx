@@ -1,13 +1,118 @@
-import React from 'react'
+import React from 'react';
+import styles from "./Blur.module.css"
 
-export default function Blur() {
-  return (
-    <>
-    <div className="blur" style={{
+// export default function Blur() {
+//   return (
+//     <>
+//     <div className="blur" style={{
+//         background : "var(--blur2)",
+//         top : "05%",
+//         width: "50rem",
+//         height: "11rem"
+//       }}></div>
+//          <div className="blur" style={{
+//         background : "var(--blur)",
+//         top : "0%",
+//         width: "40rem",
+//         height: "11rem",
+//         left: "-05rem",
+//         zIndex : "10"
+//       }}></div>
+//        <div className="blur" style={{
+//         background : "var(--blur3)",
+//         top : "12%",
+//         width: "50rem",
+//         height: "11rem",
+//         left: "-15rem",
+//       }}></div>
+//         <div className="blur" style={{
+//         background : "var(--blur2)",
+//         top : "20%",
+//         width: "50rem",
+//         height: "11rem",
+//         zIndex : "10"
+//       }}></div>
+//          <div className="blur" style={{
+//         background : "var(--blur)",
+//         top : "28%",
+//         width: "40rem",
+//         height: "11rem",
+//         left: "-05rem",
+//         zIndex : "10"
+//       }}></div>
+//        <div className="blur" style={{
+//         background : "var(--blur3)",
+//         top : "40%",
+//         width: "50rem",
+//         height: "11rem",
+//         left: "-15rem",
+//         zIndex : "10"
+//       }}></div>
+//         <div className="blur" style={{
+//         background : "var(--blur2)",
+//         top : "35%",
+//         width: "50rem",
+//         height: "11rem"
+//       }}></div>
+//          <div className="blur" style={{
+//         background : "var(--blur)",
+//         top : "50%",
+//         width: "40rem",
+//         height: "11rem",
+//         left: "-05rem",
+//       }}></div>
+//        <div className="blur" style={{
+//         background : "var(--blur2)",
+//         top : "54%",
+//         width: "50rem",
+//         height: "11rem"
+//       }}></div>
+//        <div className="blur" style={{
+//         background : "var(--blur3)",
+//         top : "64%",
+//         width: "50rem",
+//         height: "11rem",
+//         left: "-15rem",
+//       }}></div>
+//            <div className="blur" style={{
+//         background : "var(--blur)",
+//         top : "74%",
+//         width: "40rem",
+//         height: "11rem",
+//         left: "-05rem",
+//       }}></div>
+//        <div className="blur" style={{
+//         background : "var(--blur2)",
+//         top : "76%",
+//         width: "50rem",
+//         height: "11rem"
+//       }}></div>
+//         <div className="blur" style={{
+//         background : "var(--blur2)",
+//         top : "90%",
+//         width: "50rem",
+//         height: "11rem",
+//       }}></div>
+//        <div className="blur" style={{
+//         background : "var(--blur3)",
+//         top : "95%",
+//         width: "50rem",
+//         height: "11rem",
+//         left: "-15rem",
+//       }}></div>
+//       </>
+//   )
+// }
+
+export const Container = (props) => {
+  return(
+  <div className={styles.blurContainer}>
+  <div className="blur" style={{
         background : "var(--blur2)",
-        top : "05%",
-        width: "50rem",
-        height: "11rem"
+        top : "35%",
+        width: "40rem",
+        height: "11rem",
+        
       }}></div>
          <div className="blur" style={{
         background : "var(--blur)",
@@ -19,86 +124,43 @@ export default function Blur() {
       }}></div>
        <div className="blur" style={{
         background : "var(--blur3)",
-        top : "12%",
-        width: "50rem",
+        top : "80%",
+        width: "100%",
         height: "11rem",
         left: "-15rem",
-      }}></div>
-        <div className="blur" style={{
-        background : "var(--blur2)",
-        top : "20%",
-        width: "50rem",
-        height: "11rem",
         zIndex : "10"
       }}></div>
-         <div className="blur" style={{
+   {props.children}
+    </div>
+  )
+}
+export const ContainerTwo = (props) => {
+  return(
+  <div className={styles.blurContainer}>
+  <div className="blur" style={{
         background : "var(--blur)",
-        top : "28%",
-        width: "40rem",
-        height: "11rem",
-        left: "-05rem",
-        zIndex : "10"
-      }}></div>
-       <div className="blur" style={{
-        background : "var(--blur3)",
-        top : "40%",
-        width: "50rem",
-        height: "11rem",
-        left: "-15rem",
-        zIndex : "10"
-      }}></div>
-        <div className="blur" style={{
-        background : "var(--blur2)",
         top : "35%",
-        width: "50rem",
-        height: "11rem"
+        width: "40rem",
+        height: "11rem",
+        
       }}></div>
          <div className="blur" style={{
-        background : "var(--blur)",
-        top : "50%",
+        background : "var(--blur2)",
+        top : "0%",
         width: "40rem",
         height: "11rem",
         left: "-05rem",
-      }}></div>
-       <div className="blur" style={{
-        background : "var(--blur2)",
-        top : "54%",
-        width: "50rem",
-        height: "11rem"
+        zIndex : "10"
       }}></div>
        <div className="blur" style={{
         background : "var(--blur3)",
-        top : "64%",
-        width: "50rem",
+        top : "80%",
+        width: "100%",
         height: "11rem",
         left: "-15rem",
+        zIndex : "10"
       }}></div>
-           <div className="blur" style={{
-        background : "var(--blur)",
-        top : "74%",
-        width: "40rem",
-        height: "11rem",
-        left: "-05rem",
-      }}></div>
-       <div className="blur" style={{
-        background : "var(--blur2)",
-        top : "76%",
-        width: "50rem",
-        height: "11rem"
-      }}></div>
-        <div className="blur" style={{
-        background : "var(--blur2)",
-        top : "90%",
-        width: "50rem",
-        height: "11rem",
-      }}></div>
-       <div className="blur" style={{
-        background : "var(--blur3)",
-        top : "95%",
-        width: "50rem",
-        height: "11rem",
-        left: "-15rem",
-      }}></div>
-      </>
+   {props.children}
+    </div>
   )
 }

@@ -1,11 +1,13 @@
 import React from 'react'
 import { useState } from 'react'
+import { Container } from '../Blur/Blur'
 import Menu from './Menu'
 import styles from "./Profolio.module.css"
 
 export default function Protfolio() {
     const [item , setItem ] = useState(Menu)
   return (
+    <Container>
    <section className={`${styles.work} container section`}>
     <h2 className='sectionTitle'>Recent Works</h2>
 
@@ -36,5 +38,6 @@ export default function Protfolio() {
         })}
     </div>
    </section>
+   </Container>
   )
 }

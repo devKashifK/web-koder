@@ -3,9 +3,11 @@ import styles from "./Blog.module.css";
 import Image1 from "../../assets/blog-1.svg";
 import Image2 from "../../assets/blog-2.svg";
 import Image3 from "../../assets/blog-3.svg";
+import { ContainerTwo } from '../Blur/Blur';
 
 export default function Blog() {
   return (
+    <ContainerTwo>
    <section className={`${styles.blog} container section`} id="blog">
     <h2 className='sectionTitle'>Latest Posts</h2>
 
@@ -55,5 +57,6 @@ export default function Blog() {
 
     </div>
      </section>
+     </ContainerTwo>
   )
 }

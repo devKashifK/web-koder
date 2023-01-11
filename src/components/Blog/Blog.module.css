@@ -1,11 +1,13 @@
 .blogContainer{
 grid-template-columns: repeat(3, 1fr);
 column-gap: 1.875rem;
+z-index: 21;
 }
 .blogCard{
     box-shadow: var(--shadow);
     border-radius: var(--border-radius);
     overflow: hidden;
+    z-index: 21;
 }
 
 .blogThumb{

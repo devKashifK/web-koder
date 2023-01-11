@@ -2,6 +2,7 @@
   grid-template-columns: 3fr 9fr;
   column-gap: 1.875rem;
   position: relative;
+  z-index: 21;
 }
 
 .aboutData {

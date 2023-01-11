@@ -2,39 +2,12 @@ import React from "react";
 import styles from "./About.module.css";
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from "./AboutBox";
+import { ContainerTwo } from "../Blur/Blur";
 
 export default function About() {
   return (
+    <ContainerTwo>
     <section className={`${styles.about} container section`} id="about">
-      {/* <div
-        className="blur"
-        style={{
-          background: "var(--blur2)",
-          top: "17rem",
-          width: "50rem",
-          height: "11rem",
-        }}
-      ></div>
-      <div
-        className="blur"
-        style={{
-          background: "var(--blur)",
-          top: "1rem",
-          width: "40rem",
-          height: "11rem",
-          left: "-05rem",
-        }}
-      ></div>
-      <div
-        className="blur"
-        style={{
-          background: "var(--blur3)",
-          top: "80%",
-          width: "50rem",
-          height: "11rem",
-          left: "-15rem",
-        }}
-      ></div> */}
       <h2 className="sectionTitle">About Me</h2>
       <div className={`${styles.aboutContainer} grid`}>
         <img src={Image} className={styles.aboutImg} alt="" />
@@ -86,5 +59,6 @@ export default function About() {
       </div>
       <AboutBox />
     </section>
+    </ContainerTwo>
   );
 }

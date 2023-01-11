@@ -3,6 +3,7 @@ import styles from "./Services.module.css";
 import Image1 from "../../assets/service-1.svg";
 import Image2 from "../../assets/service-2.svg";
 import Image3 from "../../assets/service-3.svg";
+import { Container } from '../Blur/Blur';
 
 const data = [
   {
@@ -30,6 +31,7 @@ const data = [
                                                      
 export default function Services() {
   return (
+    <Container>
     <section className={`${styles.services} container section`} id="services">
       <h2 className="sectionTitle">Services</h2>
       <div className={`${styles.serviceContainer} grid`} >
@@ -44,6 +46,7 @@ export default function Services() {
         })}
       </div>
     </section>
+    </Container>
 
   )
 }

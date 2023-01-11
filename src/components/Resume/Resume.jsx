@@ -1,10 +1,12 @@
 import React from "react";
+import { ContainerTwo } from "../Blur/Blur";
 import Card from "./Card";
 import Data from "./Data";
 import styles from "./Resume.module.css";
 
 export default function Resume() {
   return (
+    <ContainerTwo>
     <section className={`${styles.resume} container section `} id="resume">
       <h2 className="sectionTitle">Education</h2>
 
@@ -24,5 +26,6 @@ export default function Resume() {
         </div>
       </div>
     </section>
+    </ContainerTwo>
   );
 }

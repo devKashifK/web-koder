@@ -1,8 +1,10 @@
 import React from "react";
+import { Container } from "../Blur/Blur";
 import styles from "./Contact.module.css";
 
 export default function Contact() {
   return (
+    <Container>
     <section className={`${styles.contact} container section}`}>
       <h2 className="sectionTitle">Get In Touch</h2>
 
@@ -64,5 +66,6 @@ export default function Contact() {
       </div>
       
     </section>
+    </Container>
   );
 }

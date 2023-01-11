@@ -1,27 +1,41 @@
 .contact{
     padding-bottom: 6.25rem;
     margin-top: 2.25rem;
+    z-index: 21;
 }
 
 .contactContainer{
 grid-template-columns: 4fr 8fr;
 column-gap: 1.875rem;
+z-index: 21;
 }
-
+.contactForm button{
+  margin-top: 100px;
+  z-index: 21;
+  position: relative;
+}
 .contactTitle{
     font-size: var(--h3-font-size);
     margin-bottom: 0.5rem;
+    z-index: 21;
+    position: relative;
+}
+.contactDetails{
+  z-index: 21;
+  position: relative;
 }
 .contactFormGroup{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 1.5rem;
+    z-index: 21;
 }
 
 .contactFormDiv{
     position: relative;
     margin-bottom: 1.875rem;
     height: 3.75rem;
+    z-index: 21;
 }
 
 .contactFormInput{
