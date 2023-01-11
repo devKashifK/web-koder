@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Home.module.css";
-import {BsFacebook, BsGithub, BsInstagram, BsLinkedin, BsTwitter} from "react-icons/bs"
+import {BsFacebook, BsGithub, BsInstagram, BsLinkedin, BsTwitter} from "react-icons/bs";
 
 export default function HeaderSocials() {
   return (
