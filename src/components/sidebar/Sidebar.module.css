@@ -14,6 +14,11 @@
     transition: .3s;
 }
 
+.logo{
+    width: 76px !important;
+margin-left: -21px !important;
+}
+
 .navList{
     display: flex;
     flex-direction: column;

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Sidebar.module.css"
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/log1.png";
 import { useState } from 'react';
 
 
@@ -10,14 +10,7 @@ export default function Sidebar() {
   return (
     <>
     <aside className={`${styles.aside} ${toggle ? styles.showMenu : ""}`}>
-    {/* <div className="blur" style={{
-        background : "var(--blur2)",
-        top : "80%",
-        width: "50rem",
-        height: "11rem",
-        left: "0rem"
-      }}></div> */}
-      <img src={Logo} alt="" />
+      <img className={styles.logo} src={Logo} alt="" />
   
     <nav className={styles.nav}> 
     <div className={styles.navMenu}>
