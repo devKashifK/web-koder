@@ -1,12 +1,96 @@
-.btnDark{
-    position: fixed;
-    right: 20px;
-    top : 1rem;
-    width: 40px;
-    height: 40px;
-    color: var(--text-color);
-    background-color: transparent;
-    font-size: 32px;
-    cursor: pointer;
-    z-index: 25;
+.dark {
+  width: max-content;
+  padding: 07px;
+  display: flex;
+  gap: 07px;
+  position: fixed;
+  z-index: 30;
+  right: 20px;
+  top: 1rem;
+  justify-content: center;
+  align-items: center;
 }
+.icon {
+  font-size: 32px;
+}
+.switch {
+  width: 70px;
+  height: 34px;
+  border-radius: 25px;
+  z-index: 25;
+  position: relative;
+  /* border: 1px solid var(--first-color); */
+  box-shadow: var(--shadow);
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  border-radius: 25px;
+  background: #4b79a1; 
+  background: -webkit-linear-gradient(
+    to right,
+    #283e51,
+    #4b79a1
+  ); 
+  background: linear-gradient(
+    to right,
+    #283e51,
+    #4b79a1
+  ); 
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.sliderDark {
+  background: #f7ff00; 
+  background: -webkit-linear-gradient(
+    to right,
+    #db36a4,
+    #f7ff00
+  ); 
+  background: linear-gradient(
+    to right,
+    #db36a4,
+    #f7ff00
+  ); 
+  transition: 0.4s;
+}
+.icons {
+  color: white;
+  height: 31px;
+  width: 33px;
+  border-radius: 50%;
+  left: 02px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  transition: 0.4s;
+}
+.change {
+  color: white;
+  height: 31px;
+  width: 33px;
+  border-radius: 50%;
+  position: absolute;
+  right: 02px !important;
+  display: flex;
+  left: 35px;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  transition: 0.4s;
+}
+
