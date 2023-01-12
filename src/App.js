@@ -29,7 +29,7 @@ function App() {
       document.documentElement.style.setProperty(
         "--body-color",
         "hsl(258, 60%, 98%)"
-      );
+      )
       document.documentElement.style.setProperty(
         "--title-color",
         "hsl(244, 24%, 26%)"
