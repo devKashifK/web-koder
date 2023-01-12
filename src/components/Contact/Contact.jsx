@@ -5,17 +5,17 @@ import styles from "./Contact.module.css";
 export default function Contact() {
   return (
     <Container>
-    <section className={`${styles.contact} container section}`}>
+    <section className={`${styles.contact} container section}`} data-aos="fade-up">
       <h2 className="sectionTitle">Get In Touch</h2>
 
-      <div className={`${styles.contactContainer} grid`}>
+      <div className={`${styles.contactContainer} grid`} data-aos="fade-left">
         <div className={styles.contactInfo}>
           <h3 className={styles.contactTitle}>Let's talk about everything!</h3>
           <p className={styles.contactDetails}>
             Don't Like Forms? Send me an email.✍️
           </p>
         </div>
-        <form action="" className={styles.contactForm}>
+        <form action="" className={styles.contactForm} data-aos="fade-right">
         <div className={styles.contactFormGroup}>
             <div className={styles.contactFormDiv}>
               <input

@@ -32,12 +32,12 @@ const data = [
 export default function Services() {
   return (
     <Container>
-    <section className={`${styles.services} container section`} id="services">
+    <section className={`${styles.services} container section`} id="services" data-aos="fade-up">
       <h2 className="sectionTitle">Services</h2>
       <div className={`${styles.serviceContainer} grid`} >
         {data.map(({id , image, title , description})=>{
           return(
-            <div className={styles.servicesCard} key={id}>
+            <div className={styles.servicesCard} key={id} data-aos="fade-left">
               <img src={image} alt="" className={styles.servicesImg} />
               <h3 className={styles.servicesTitle}>{title}</h3>
               <p className={styles.description}>{description}</p>

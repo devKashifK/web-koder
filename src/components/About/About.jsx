@@ -6,8 +6,8 @@ import { ContainerTwo } from "../Blur/Blur";
 
 export default function About() {
   return (
-    <ContainerTwo>
-    <section className={`${styles.about} container section`} id="about">
+    <ContainerTwo >
+    <section className={`${styles.about} container section`} id="about" data-aos="fade-up">
       <h2 className="sectionTitle">About Me</h2>
       <div className={`${styles.aboutContainer} grid`}>
         <img src={Image} className={styles.aboutImg} alt="" />

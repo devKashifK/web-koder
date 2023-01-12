@@ -111,6 +111,7 @@ img{
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  z-index: 32;
 }
 .grid{
   display: grid;
@@ -119,6 +120,7 @@ img{
   padding-top: 7rem;
   padding-bottom: 2rem;
   position: relative;
+  z-index: 32;
 }
 
 .sectionTitle{
@@ -127,7 +129,7 @@ img{
   font-weight: var(--font-bold);
   position: relative;
   margin-bottom: 3.75rem;
-  z-index: 21;
+  z-index: 25;
 }
 
 .sectionTitle::before{

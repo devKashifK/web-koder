@@ -3,7 +3,7 @@
   padding: 07px;
   display: flex;
   gap: 07px;
-  position: fixed;
+  position: absolute;
   z-index: 30;
   right: 20px;
   top: 1rem;
@@ -30,17 +30,10 @@
 .slider {
   position: absolute;
   border-radius: 25px;
-  background: #4b79a1; 
-  background: -webkit-linear-gradient(
-    to right,
-    #283e51,
-    #4b79a1
-  ); 
-  background: linear-gradient(
-    to right,
-    #283e51,
-    #4b79a1
-  ); 
+  background: #360033;  
+  background: -webkit-linear-gradient(to right, #0b8793, #360033);  
+  background: linear-gradient(to right, #0b8793, #360033); 
+   
   cursor: pointer;
   top: 0;
   left: 0;

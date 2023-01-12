@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 
 export default function AboutBox() {
   return (
-    <div className={`${styles.aboutBoxes} grid`}>
+    <div className={`${styles.aboutBoxes} grid`} data-aos="fade-left">
         <div className={styles.aboutBox}>
             <i className={`${styles.aboutIcon} icon-fire`}></i>
     

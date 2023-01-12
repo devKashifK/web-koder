@@ -9,6 +9,8 @@ import Protfolio from "./components/Protfolio/Protfolio";
 import Resume from "./components/Resume/Resume";
 import Services from "./components/Services/Services";
 import Sidebar from "./components/sidebar/Sidebar";
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 import Home from "./Pages/Home/Home";
 
@@ -42,6 +44,10 @@ function App() {
       document.documentElement.style.setProperty("--shadow", "0px 5px 20px 0px rgb(69 67 96 / 10%)");
     }
   }, [darkMode]);
+
+  useEffect(() => {
+    AOS.init({duration : 2000})
+  })
 
   return (
     <>

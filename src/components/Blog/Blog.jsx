@@ -8,11 +8,11 @@ import { ContainerTwo } from '../Blur/Blur';
 export default function Blog() {
   return (
     <ContainerTwo>
-   <section className={`${styles.blog} container section`} id="blog">
+   <section className={`${styles.blog} container section`} id="blog" data-aos="fade-up">
     <h2 className='sectionTitle'>Latest Posts</h2>
 
     <div className={`${styles.blogContainer} grid`}>
-<div className={styles.blogCard}>
+<div className={styles.blogCard} data-aos="fade-left">
     <div className={styles.blogThumb}>
 <span className={styles.blogCategory}>Tutorial</span>
 <img src={Image1} alt="" className={styles.blogImg} />
@@ -26,7 +26,7 @@ export default function Blog() {
         </div>
     </div>
 </div>
-<div className={styles.blogCard}>
+<div className={styles.blogCard} data-aos="fade-right">
     <div className={styles.blogThumb}>
 <span className={styles.blogCategory}>Tutorial</span>
 <img src={Image2} alt="" className={styles.blogImg} />
@@ -40,7 +40,7 @@ export default function Blog() {
         </div>
     </div>
 </div>
-<div className={styles.blogCard}>
+<div className={styles.blogCard} data-aos="fade-left">
     <div className={styles.blogThumb}>
 <span className={styles.blogCategory}>Tutorial</span>
 <img src={Image3} alt="" className={styles.blogImg} />

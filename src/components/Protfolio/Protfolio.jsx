@@ -8,7 +8,7 @@ export default function Protfolio() {
     const [item , setItem ] = useState(Menu)
   return (
     <Container>
-   <section className={`${styles.work} container section`}>
+   <section className={`${styles.work} container section`} data-aos="fade-up">
     <h2 className='sectionTitle'>Recent Works</h2>
 
     <div className={styles.workFilters}>
@@ -19,7 +19,7 @@ export default function Protfolio() {
         <span className={styles.workItem}>Branding</span>
         <span className={styles.workItem}>Everything</span> 
     </div>
-    <div className={`${styles.workContainer} grid`}>
+    <div className={`${styles.workContainer} grid`} data-aos="fade-right">
         {item.map((elem) => {
             const {id , image , title , category } = elem;
             return(
