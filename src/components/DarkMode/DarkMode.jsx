@@ -17,10 +17,6 @@ export default function DarkMode(props) {
 
   return (
     <div className={styles.dark}>
-      <div className={styles.icon}>
-        {" "}
-        <BsSun />{" "}
-      </div>
       <label className={styles.switch}>
         <input type="checkbox" />
         <div
