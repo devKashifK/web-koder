@@ -5,7 +5,7 @@ import styles from "./Contact.module.css";
 export default function Contact() {
   return (
     <Container>
-    <section className={`${styles.contact} container section}`} data-aos="fade-up">
+    <section className={`${styles.contact} container section}`} data-aos="fade-up" id="contact">
       <h2 className="sectionTitle">Get In Touch</h2>
 
       <div className={`${styles.contactContainer} grid`} data-aos="fade-left">

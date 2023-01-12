@@ -8,7 +8,7 @@ export default function Protfolio() {
     const [item , setItem ] = useState(Menu)
   return (
     <Container>
-   <section className={`${styles.work} container section`} data-aos="fade-up">
+   <section className={`${styles.work} container section`} data-aos="fade-up"  id="project">
     <h2 className='sectionTitle'>Recent Works</h2>
 
     <div className={styles.workFilters}>

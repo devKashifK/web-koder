@@ -17,27 +17,27 @@ export default function Sidebar() {
       <ul className={styles.navList}>
         <li className={styles.navItem}>
           <div className={styles.navLink}>
-          <i className='icon-home'></i>
+         <a href="#home"> <i className='icon-home'></i></a>
           </div>
         </li>
         <li className={styles.navItem}>
         <div className={styles.navLink}>
-          <i className='icon-user-following'></i>
+        <a href="#about"> <i className='icon-user-following'></i> </a>
           </div>
         </li>
          <li className={styles.navItem}>
          <div className={styles.navLink}>
-          <i className='icon-briefcase'></i>
+         <a href="#services"><i className='icon-briefcase'></i> </a>
           </div>
         </li>
          <li className={styles.navItem}>
          <div className={styles.navLink}>
-          <i className='icon-graduation'></i>
+         <a href="#resume"><i className='icon-graduation'></i></a>
           </div>
         </li>
         <li className={styles.navItem}>
         <div className={styles.navLink}>
-          <i className='icon-layers'></i>
+        <a href="#project"><i className='icon-layers'></i></a>
           </div>
         </li>
         <li className={styles.navItem}>
@@ -47,7 +47,7 @@ export default function Sidebar() {
         </li>
         <li className={styles.navItem}>
         <div className={styles.navLink}>
-          <i className='icon-bubble'></i>
+        <a href="#contact"><i className='icon-bubble'></i></a>
           </div>
         </li>
          </ul>
