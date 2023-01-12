@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useSyncExternalStore } from 'react';
+import React, { useRef, } from 'react';
 import { useSelector } from 'react-redux';
 import styles from "./animation.module.css";
-import { Ref } from 'react';
+
 
 export default function DarkAnimation() {
     const darkMode = useSelector((state) => state.dark.darkMode)
