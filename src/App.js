@@ -13,6 +13,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"
 
 import Home from "./Pages/Home/Home";
+import DarkAnimation from "./components/DarkMode/DarkAnimation";
 
 function App() {
   const darkMode = useSelector((state) => state.dark.darkMode)
@@ -53,6 +54,7 @@ function App() {
     <>
       <Sidebar />
       <DarkMode  />
+      <DarkAnimation />
       <main className="main">
         <Home />
         <About />

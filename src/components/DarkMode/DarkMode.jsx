@@ -7,7 +7,7 @@ import { useDispatch} from "react-redux";
 import { DarkActions } from "../../Store/DarkMode";
 import styles from "./DarkMode.module.css";
 
-export default function DarkMode(props) {
+export default function DarkMode() {
   const dispatch = useDispatch();
   const [change, setChange] = useState(false);
   const HandleClick = () => {
