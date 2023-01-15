@@ -1,8 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
+import { BsGithub } from 'react-icons/bs';
 import { Container } from '../Blur/Blur'
 import Menu from './Menu'
-import styles from "./Profolio.module.css"
+import styles from "./Profolio.module.css";
+import {MdLiveTv} from "react-icons/md"
 
 export default function Protfolio() {
     const [item , setItem ] = useState(Menu)
@@ -21,19 +23,22 @@ export default function Protfolio() {
     </div>
     <div className={`${styles.workContainer} grid`} data-aos="fade-right">
         {item.map((elem) => {
-            const {id , image , title , category } = elem;
+            const {id , image , title ,  description, technology, github , live  } = elem;
             return(
-                <div className={styles.workCard} key={id}>
-                    <div className={styles.workThumbnail}>
-                      <img src={image} alt="" className="workImg" />
-                      <div className={styles.workMask}></div>
-                    </div>
-                    <span className={styles.workCategory}>{category}</span>
-                    <h3 className={styles.workTitle}>{title}</h3>
-                    <div className={styles.workBtn}>
-                        <i className={`icon-link ${styles.workButtonIcon}`}></i>
-                    </div>
-                </div>
+                <div  className={styles.card} key={id} data-aos="fade-up"> 
+      <img src={image} className={styles.cardImage} alt="" />
+      <div className={styles.cardOverlay}>
+        <div className={styles.cardHeader} >
+        <div className={styles.icons}> <a href={github} className={styles.links} target="_blank" rel="noopener noreferrer"> <BsGithub /> </a> <a href={live} className={styles.links} target="_blank" rel="noopener noreferrer"> <MdLiveTv /> </a></div>
+          <svg className={styles.cardArc} xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+          <div className={styles.cardHeaderText}>
+            <h3 className={styles.cardTitle}>{title}</h3>
+            <div className={styles.cardTechno}><span className={styles.techno}>{technology[0]}</span> <span className={styles.techno}>{technology[1]}</span> <span className={styles.techno}>{technology[2]}</span> </div>            
+          </div>
+        </div>
+        <p className={styles.cardDescription}>{description}</p>
+      </div>
+    </div>
             )
         })}
     </div>
