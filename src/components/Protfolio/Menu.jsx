@@ -1,9 +1,9 @@
 import Work1 from "../../assets/project1.png";
 import Work2 from "../../assets/project-2.png";
 import Work3 from "../../assets/project3.png";
-import Work4 from "../../assets/work-4.svg";
+import Work4 from "../../assets/project4.png";
 import Work5 from "../../assets/Project5.png";
-import Work6 from "../../assets/work-6.svg";
+import Work6 from "../../assets/project6.png";
 
 const Menu = [
   {
@@ -40,10 +40,13 @@ const Menu = [
   {
     id: 4,
     image: Work4,
-    title: "Project Management Illustration",
+    title: "Admin Panel",
     description: "",
     category: "Design",
     technology: ["React", "Redux", "CSS"],
+    live: "https://admin-panel-mu-five.vercel.app/Dashboard",
+    github: "https://github.com/devKashifK/AdminPanel",
+
   },
   {
     id: 5,
@@ -58,10 +61,12 @@ const Menu = [
   {
     id: 6,
     image: Work6,
-    title: "Netflix Clone",
+    title: "Movies Search",
     description: "",
     category: "Art",
     technology: ["React", "Redux", "CSS"],
+    live: "https://movies-of7qniisu-devkashifk.vercel.app/",
+    github: "https://github.com/devKashifK/movies",
   },
 ];
 
