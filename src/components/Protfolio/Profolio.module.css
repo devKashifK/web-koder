@@ -46,6 +46,7 @@
   top: -20px;
   display: flex;
   gap: 07px;
+  z-index: 40;
 }
 .links {
   width: 40px;
@@ -65,6 +66,7 @@
   height: 380px;
   object-fit: cover;
   overflow: hidden;
+  object-position: top;
 }
 
 .cardOverlay {
@@ -74,7 +76,7 @@
   right: 0;
   z-index: 1;
   border-radius: 40px;
-  background-color: var(--container-color);
+  background-color:var(--title-color);
   transform: translateY(100%);
   transition: 0.2s ease-in-out;
 }
@@ -90,7 +92,7 @@
   gap: 2em;
   padding: 2em;
   border-radius: 40px 0 0 0;
-  background-color: var(--container-color);
+  background-color:var(--title-color);
   transform: translateY(-100%);
   transition: 0.2s ease-in-out;
 }
@@ -99,13 +101,13 @@
   width: 80px;
   height: 80px;
   position: absolute;
-  bottom: 100%;
+  bottom: 99%;
   right: 0;
   z-index: 1;
 }
 
 .cardArc path {
-  fill: var(--container-color);
+  fill: var(--title-color);
   d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
 }
 
@@ -116,27 +118,26 @@
 .cardTitle {
   font-size: 1em;
   margin: 0 0 0.3em;
-  color: #6a515e;
+  color: white;
 }
 
-/* .card:hover .cardTitle {
-  margin-top: -10px;
-} */
 
 .cardTagline {
   display: block;
   margin: 1em 0;
   font-size: 0.8em;
-  color: #d7bdca;
+  color: white;
 }
 .techno {
   padding: 2px 15px;
   background-color: var(--first-color);
   font-size: 12px;
   color: white;
+ box-shadow: var(--shadow);
 }
 .techno:nth-child(2) {
-  background: hsl(244, 24%, 26%);
+  background: purple;
+  color: white;
 }
 .techno:nth-child(3) {
   background: green;
@@ -149,7 +150,7 @@
 .cardDescription {
   padding: 0 2em 2em;
   margin: 0;
-  color: var(--text-color);
+  color: white;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;

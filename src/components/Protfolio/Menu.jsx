@@ -1,8 +1,8 @@
 import Work1 from "../../assets/project1.png";
 import Work2 from "../../assets/project-2.png";
-import Work3 from "../../assets/work-3.svg";
+import Work3 from "../../assets/project3.png";
 import Work4 from "../../assets/work-4.svg";
-import Work5 from "../../assets/work-5.svg";
+import Work5 from "../../assets/Project5.png";
 import Work6 from "../../assets/work-6.svg";
 
 const Menu = [
@@ -24,6 +24,8 @@ const Menu = [
     description: "",
     category: "Art",
     technology: ["React", "Redux", "CSS"],
+    live: "https://human-hood-organization.vercel.app/",
+    github: "https://github.com/devKashifK/human-hood-organization",
   },
   {
     id: 3,
@@ -32,6 +34,8 @@ const Menu = [
     description: "",
     category: "Branding",
     technology: ["React", "Redux", "CSS"],
+    live: "https://shoppingo-nine.vercel.app/",
+    github: "https://github.com/devKashifK/Shoppingo",
   },
   {
     id: 4,
@@ -48,6 +52,8 @@ const Menu = [
     description: "",
     category: "Creative",
     technology: ["React", "Redux", "CSS"],
+    live: "https://quick-automate-kappa.vercel.app/",
+    github: "https://github.com/devKashifK/quickAutomate",
   },
   {
     id: 6,
