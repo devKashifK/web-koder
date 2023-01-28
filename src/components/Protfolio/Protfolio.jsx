@@ -7,19 +7,15 @@ import styles from "./Profolio.module.css";
 import {MdLiveTv} from "react-icons/md"
 
 export default function Protfolio() {
-    const [item , setItem ] = useState(Menu)
+    const [item , setItem ] = useState(Menu.filter((item) => item.category === "Full"))
   return (
     <Container>
    <section className={`${styles.work} container section`} data-aos="fade-up"  id="project">
     <h2 className='sectionTitle'>Recent Works</h2>
 
     <div className={styles.workFilters}>
-        <span className={styles.workItem}>Everything</span>
-        <span className={styles.workItem}>Creative</span>
-        <span className={styles.workItem}>Art</span>
-        <span className={styles.workItem}>Design</span>
-        <span className={styles.workItem}>Branding</span>
-        <span className={styles.workItem}>Everything</span> 
+        <span className={styles.workItem} onClick={() => setItem(Menu.filter((item) => item.category === "Full"))}>Big Projects</span>
+        <span className={styles.workItem} onClick={() => setItem(Menu.filter((item) => item.category === "Small"))}>Small Projects</span>
     </div>
     <div className={`${styles.workContainer} grid`} data-aos="fade-right">
         {item.map((elem) => {

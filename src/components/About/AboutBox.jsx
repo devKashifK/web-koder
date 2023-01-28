@@ -8,7 +8,7 @@ export default function AboutBox() {
             <i className={`${styles.aboutIcon} icon-fire`}></i>
     
         <div>
-            <h3 className={styles.aboutTitle}>198</h3>
+            <h3 className={styles.aboutTitle}>20+</h3>
             <span className={styles.aboutSubtitle}>Project Completed</span>
         </div>
         </div>
@@ -31,10 +31,7 @@ export default function AboutBox() {
         <div className={styles.aboutBox}>
             <i className={`${styles.aboutIcon} icon-badge`}></i>
     
-        <div>
-            <h3 className={styles.aboutTitle}>35</h3>
-            <span className={styles.aboutSubtitle}>Nominees Winner</span>
-        </div>
+      
         </div>
     </div>
 

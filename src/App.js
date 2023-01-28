@@ -60,7 +60,7 @@ function App() {
         <About />
         <Protfolio />
         <Resume />
-        <Services />
+        {/* <Services /> */}
         <Blog />
         <Contact />
       </main>
