@@ -4,6 +4,12 @@ import Work3 from "../../assets/project3.png";
 import Work4 from "../../assets/project4.png";
 import Work5 from "../../assets/Project5.png";
 import Work6 from "../../assets/project6.png";
+import Work7 from "../../assets/project7.png";
+import Work8 from "../../assets/porject8.png";
+import Work9 from "../../assets/project9.png";
+import Work10 from "../../assets/project10.png";
+import Work11 from "../../assets/project11.png";
+import Work12 from "../../assets/project12.png";
 
 const Menu = [
   {
@@ -74,69 +80,69 @@ const Menu = [
   },
   {
     id: 7,
-    image: Work6,
+    image: Work9,
     title: "Todo Web-App",
     description:
-      "Built a movie search website using React.js, featuring data pulled through API calls and a search function. The website has a clean design, easy-to-use interface and allows users to search and browse a wide variety of movies. Optimized for performance and user experience.",
+      "A to-do web app built with ReactJS that allows users to add tasks, set timers, and view motivational quotes through an API integration. Perfect for staying organized and motivated while working on projects.",
     category: "Small",
     technology: ["React", "Redux", "CSS"],
-    live: "https://movies-of7qniisu-devkashifk.vercel.app/",
+    live: "https://github.com/devKashifK/Todo",
     github: "https://github.com/devKashifK/movies",
   },
   {
     id: 8,
-    image: Work6,
-    title: "Calculator",
+    image: Work8,
+    title: "Quiz",
     description:
-      "Built a movie search website using React.js, featuring data pulled through API calls and a search function. The website has a clean design, easy-to-use interface and allows users to search and browse a wide variety of movies. Optimized for performance and user experience.",
+      "A basic quiz app built with HTML, CSS, and JavaScript. Allows users to test their knowledge on Harry Potter Movie Series, Features include multiple choice questions, results page and responsive design.",
     category: "Small",
-    technology: ["React", "Redux", "CSS"],
-    live: "https://movies-of7qniisu-devkashifk.vercel.app/",
-    github: "https://github.com/devKashifK/movies",
+    technology: ["HTML", "CSS", "JAVASCRIPT"],
+    live: "https://quiz-seven-sigma.vercel.app/",
+    github: "https://github.com/devKashifK/Quiz",
   },
   {
     id: 9,
-    image: Work6,
+    image: Work7,
     title: "IPL Team Preview",
     description:
-      "Built a movie search website using React.js, featuring data pulled through API calls and a search function. The website has a clean design, easy-to-use interface and allows users to search and browse a wide variety of movies. Optimized for performance and user experience.",
+      "An IPL website built with HTML, CSS, and JavaScript, allows users to view team and player information, also allows to add new team and player info, perfect for viewing IPL Teams and have play around",
     category: "Small",
-    technology: ["React", "Redux", "CSS"],
-    live: "https://movies-of7qniisu-devkashifk.vercel.app/",
-    github: "https://github.com/devKashifK/movies",
+    technology: ["HTML", "CSS", "JAVASCRIPT"],
+    live: "https://ipl-delta.vercel.app/",
+    github: "https://github.com/devKashifK/IPL",
   },
   {
     id: 10,
-    image: Work6,
+    image: Work10,
     title: "Landing Page",
     description:
-      "Built a movie search website using React.js, featuring data pulled through API calls and a search function. The website has a clean design, easy-to-use interface and allows users to search and browse a wide variety of movies. Optimized for performance and user experience.",
+      "A stylish landing page built with HTML, CSS, and JavaScript. Designed to capture user attention and convert visitors into customers. Features include responsive design, animations and interactive elements.",
     category: "Small",
-    technology: ["React", "Redux", "CSS"],
-    live: "https://movies-of7qniisu-devkashifk.vercel.app/",
-    github: "https://github.com/devKashifK/movies",
+    technology: ["HTML", "CSS", "JAVASCRIPT"],
+    live: "https://landing-nukk.vercel.app/",
+    github: "https://github.com/devKashifK/Landing-Nukk",
   },
   {
     id: 11,
-    image: Work6,
-    title: "Portfolio",
+    image: Work11,
+    title: "Calculator",
     description:
-      "Built a movie search website using React.js, featuring data pulled through API calls and a search function. The website has a clean design, easy-to-use interface and allows users to search and browse a wide variety of movies. Optimized for performance and user experience.",
+      "A calculator app built with HTML, CSS, and JavaScript. It allows users to perform basic calculations and view calculation history. Features include responsive design, user-friendly interface.",
     category: "Small",
-    technology: ["React", "Redux", "CSS"],
-    live: "https://movies-of7qniisu-devkashifk.vercel.app/",
-    github: "https://github.com/devKashifK/movies",
+    technology: ["HTML", "CSS", "JAVASCRIPT"],
+    live: "https://codepen.io/Kashif9852/full/WNKyPNY",
+    github: "https://github.com/devKashifK/Calculator-JS",
   },
   {
     id: 12,
-    image: Work6,
-    title: "Portfolio",
+    image: Work12,
+    title: "E-commerce",
     description:
-      "Built a movie search website using React.js, featuring data pulled through API calls and a search function. The website has a clean design, easy-to-use interface and allows users to search and browse a wide variety of movies. Optimized for performance and user experience.",
+      "An e-commerce website built with HTML, CSS, and JavaScript. Features a user-friendly interface, responsive design, and various functionalities like product listing, shopping cart.",
     category: "Small",
-    technology: ["React", "Redux", "CSS"],
-    live: "https://movies-of7qniisu-devkashifk.vercel.app/",
-    github: "https://github.com/devKashifK/movies",
+    technology: ["HTML", "CSS", "JAVASCRIPT"],
+    live: "https://js-e-commerce.vercel.app/",
+    github: "https://github.com/devKashifK/Js-E-commerce",
   },
 ];
 
