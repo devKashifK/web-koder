@@ -7,7 +7,7 @@ import Contact from "./components/Contact/Contact";
 import DarkMode from "./components/DarkMode/DarkMode";
 import Protfolio from "./components/Protfolio/Protfolio";
 import Resume from "./components/Resume/Resume";
-import Services from "./components/Services/Services";
+// import Services from "./components/Services/Services";
 import Sidebar from "./components/sidebar/Sidebar";
 import AOS from "aos";
 import "aos/dist/aos.css"

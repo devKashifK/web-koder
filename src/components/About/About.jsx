@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
 import Image from "../../assets/avatar-2.svg";
-import AboutBox from "./AboutBox";
+// import AboutBox from "./AboutBox";
 import { ContainerTwo } from "../Blur/Blur";
 
 export default function About() {
