@@ -26,7 +26,7 @@ export default function About() {
                 and React.js.
               </p>
 
-              <div className="btn"> <a href="../DownloadResume/KASHIFKHAN.pdf" download = "KashifKhan.pdf"> Download Resume </a></div>
+               <a className="btn" href="../DownloadResume/KASHIFKHAN.pdf" download = "KashifKhan.pdf"> Download Resume </a>
             </div>
             <div className={`${styles.aboutSkills} grid`}>
               <div className={styles.skillsData}>

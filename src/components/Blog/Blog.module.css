@@ -17,6 +17,9 @@ z-index: 21;
 .blogImg{
     transform: scale(1);
     transition: .3s;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
 }
 
 .blogThumb:hover .blogImg{

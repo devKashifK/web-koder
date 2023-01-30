@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from "./Blog.module.css";
-import Image1 from "../../assets/blog-1.svg";
-import Image2 from "../../assets/blog-2.svg";
-import Image3 from "../../assets/blog-3.svg";
+import Image1 from "../../assets/useEffect.jpg";
+import Image2 from "../../assets/react.png";
+import Image3 from "../../assets/redux.png";
 import { ContainerTwo } from '../Blur/Blur';
 
 export default function Blog() {
@@ -18,7 +18,7 @@ export default function Blog() {
 <img src={Image1} alt="" className={styles.blogImg} />
     </div>
     <div className={styles.blogDetails}>
-        <h3 className={styles.blogTitle}>Blog1</h3>
+        <h3 className={styles.blogTitle}>Benefits of UseEffect Hook</h3>
         <div className={styles.blogMeta}>
             <span>9 January 2023</span>
             <span className={styles.blogDot}>.</span>
@@ -32,7 +32,7 @@ export default function Blog() {
 <img src={Image2} alt="" className={styles.blogImg} />
     </div>
     <div className={styles.blogDetails}>
-        <h3 className={styles.blogTitle}>Blog 2</h3>
+        <h3 className={styles.blogTitle}>Why Choose React JS</h3>
         <div className={styles.blogMeta}>
             <span>9 January 2023</span>
             <span className={styles.blogDot}>.</span>
@@ -42,7 +42,7 @@ export default function Blog() {
 </div>
 <div className={styles.blogCard} data-aos="fade-left">
     <div className={styles.blogThumb}>
-<span className={styles.blogCategory}>Tutorial</span>
+<span className={styles.blogCategory}>Redux</span>
 <img src={Image3} alt="" className={styles.blogImg} />
     </div>
     <div className={styles.blogDetails}>
