@@ -25,11 +25,7 @@ export default function Sidebar() {
         <a href="#about"> <i className='icon-user-following'></i> </a>
           </div>
         </li>
-         <li className={styles.navItem}>
-         <div className={styles.navLink}>
-         <a href="#services"><i className='icon-briefcase'></i> </a>
-          </div>
-        </li>
+        
          <li className={styles.navItem}>
          <div className={styles.navLink}>
          <a href="#resume"><i className='icon-graduation'></i></a>
@@ -42,7 +38,7 @@ export default function Sidebar() {
         </li>
         <li className={styles.navItem}>
         <div className={styles.navLink}>
-          <i className='icon-note'></i>
+        <a href="#blog"><i className='icon-note'></i></a>
           </div>
         </li>
         <li className={styles.navItem}>
