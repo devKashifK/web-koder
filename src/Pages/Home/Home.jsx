@@ -14,7 +14,8 @@ export default function Home() {
         <div className={styles.intro}>
           <img src={Me} alt="" className={styles.homeImg} />
           <h1 className={styles.homeName}>
-            Kashif Khan <img src={glasses} className={styles.glasses} alt="" />
+            Kashif Khan
+             {/* <img src={glasses} className={styles.glasses} alt="" /> */}
           </h1>
           <div className={styles.typeW}>
           <Typewriter
